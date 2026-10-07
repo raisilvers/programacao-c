@@ -5,7 +5,7 @@
 
 int	main(void)
 {
-	printf("\"Bem-vindo C!\n\"");
+	printf("\"Bem-vindo C!\"\n");
 
 	return (0);
 }
