@@ -1,19 +1,21 @@
-#include <stdio.h> 
+/* Programa que soma dois 
+valores inteiros */
+
+#include <stdio.h>
 
 int main(void)
 {
-    int valor1;
-    int valor2;
-    int resultado;
+    int num1, num2, result;
 
-    printf("Digite o primeiro valor: \n");
-    scanf("%d", &valor1);
+    printf("Digite o primeiro numero: \n");
+    scanf("%d", &num1);
 
     printf("Digite o segundo valor: \n");
-    scanf("%d", &valor2);
+    scanf("%d", &num2);
 
-    resultado = valor1 + valor2;
+    result = num1 + num2;
 
-    printf("Resuldado = %d\n",resultado);
-    return 0;
+    printf("Resultado = %d\n", result);
+    
+    return (0);
 }
