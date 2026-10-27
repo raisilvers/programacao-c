@@ -1,14 +1,9 @@
-/*Primeiro programa
- * em C*/
+/* Primeiro programa em C */
 
 #include <stdio.h>
 
 int	main(void)
 {
-	printf("\"Bem-vindo C!\"\n");
-
+	printf("Bem-Vindo a C! \n");
 	return (0);
 }
-
-
-// COMENTARIO EM UMA LINHA

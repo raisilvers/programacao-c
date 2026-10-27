@@ -15,7 +15,7 @@ int main(void)
     scanf("%d", &num2);
     
     if(num1 == num2)
-    { 
+    {
         printf("%d é igual a %d\n", num1, num2 );
     }
 
