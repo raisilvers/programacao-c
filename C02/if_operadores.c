@@ -30,7 +30,7 @@ int main(void)
         printf("%d é maior que %d\n", n1, n2);
     }
 
-    if (n1 <= n2)
+    if (n1 >= n2)
     {
         printf("%d é maior ou igual a %d\n", n1, n2);
     }
