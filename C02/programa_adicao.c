@@ -1,23 +1,21 @@
-/* Programa que soma dois 
-valores inteiros */
+/* Programa que adiciona dois valores */
 
-#include <stdio.h> // biblioteca 
+#include <stdio.h>
 
-int main(void) // Em main que inicia o programa
+int main(void)
 {
-    int num1; // variavel tipo inteiro
-    int num2; // variavel tipo inteiro
-    int soma; // variavel tipo inteiro
+    int num1;
+    int num2;
+    int soma;
 
-    printf("Digite o primeiro valor: \n"); // exibe na tela mensagem e pula uma linha
-    scanf("%d", &num1);  // le um dado do tipo inteiro do teclado
+    printf("Digite o primeiro valor: \n");
+    scanf("%d", &num1);
 
     printf("Digite o segundo valor: \n");
     scanf("%d", &num2);
 
     soma = num1 + num2;
 
-    printf("Resultado = %d\n", soma);
+    printf("Resultado: %d\n", soma);
 
-    return (0);
 }

@@ -4,6 +4,6 @@
 
 int	main(void)
 {
-	printf("Bem-Vindo a C! \n");
+	printf("Bem-Vindo a C!\n");
 	return (0);
 }

@@ -1,48 +1,44 @@
-/* Usando if, operadores relacionais
-e operadores de igualdade.*/
+/* if, operadores relacionais, operador de igualdade */
 
 #include <stdio.h>
 
 int main(void)
 {
-    int num1;
-    int num2;
+    int n1;
+    int n2;
 
-    printf("Entre com dois numeros e eu lhe direi\n");
-    printf("as relaçoẽs que eles satisfazem: ");
+    printf("Entre com  os valores que deseja saber a relacao: \n");
+    scanf("%d%d", &n1, &n2);
 
-    scanf("%d", &num1);
-    scanf("%d", &num2);
+    if (n1 == n2)
+    {
+        printf("%d é igual a %d\n", n1, n2);
+    }
+
+    if (n1 != n2)
+    {
+        printf("%d e diferente de %d\n", n1, n2);
+    }
+
+    if (n1 < n2)
+    {
+        printf("%d é menor que %d\n", n1, n2);
+    }
+
+    if (n1 > n2)
+    {
+        printf("%d é maior que %d\n", n1, n2);
+    }
+
+    if (n1 <= n2)
+    {
+        printf("%d é maior ou igual a %d\n", n1, n2);
+    }
+
+    if (n1 <= n2)
+    {
+        printf("%d é menor ou igual a %d\n", n1, n2);
+    }
     
-    if(num1 == num2)
-    {
-        printf("%d é igual a %d\n", num1, num2 );
-    }
-
-    if(num1 != num2)
-    {
-        printf("%d é diferente de %d\n", num1, num2 );
-    }
-
-    if(num1 < num2)
-    {
-        printf("%d é menor que %d\n", num1, num2);
-    }
-
-    if(num1 > num2)
-    {
-        printf("%d é maior que %d\n", num1, num2);
-    }
-
-    if(num1 <= num2)
-    {
-        printf("%d é menor igual a %d\n", num1, num2);
-    }
-
-    if(num1 >= num2)
-    {
-        printf("%d é maior igual a %d\n", num1, num2);
-    }
-
-    return 0;
+    return (0);
 }
