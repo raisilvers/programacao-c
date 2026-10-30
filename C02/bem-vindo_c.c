@@ -4,6 +4,8 @@
 
 int	main(void)
 {
-	printf("Bem-Vindo a C!\n");
+	int resultado = 10;
+	printf("o produto e %d", resultado);
+
 	return (0);
 }
